@@ -1,0 +1,28 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "definitions": {},
+    "id": "http://example.com/example.json",
+    "properties": {
+        "first_name": {
+            "id": "/properties/first_name",
+            "type": "string"
+        },
+        "last_name": {
+            "id": "/properties/last_name",
+            "type": "string"
+        },
+        "loan_amount": {
+            "id": "/properties/loan_amount",
+            "type": "number"
+        },
+        "loan_type": {
+            "id": "/properties/loan_type",
+            "type": "string"
+        },
+        "ph_number": {
+            "id": "/properties/ph_number",
+            "type": "string"
+        }
+    },
+    "type": "object"
+}
